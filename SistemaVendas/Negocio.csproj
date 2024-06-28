@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Bussines\Administração\Funcionarios\DAL\" />
+    <Folder Include="Bussines\Administração\Funcionarios\Interfaces\" />
+    <Folder Include="Bussines\Administração\Funcionarios\Model\" />
+    <Folder Include="Bussines\Administração\Funcionarios\ViewModel\" />
+    <Folder Include="Bussines\Administração\Totem\DAL\" />
+    <Folder Include="Bussines\Administração\Totem\Interfaces\" />
+    <Folder Include="Bussines\Administração\Totem\Model\" />
+    <Folder Include="Bussines\Administração\Totem\ViewModel\" />
+    <Folder Include="Bussines\Cadastro\Alunos\DAL\" />
+    <Folder Include="Bussines\Cadastro\Alunos\Interfaces\" />
+    <Folder Include="Bussines\Cadastro\Alunos\Model\" />
+    <Folder Include="Bussines\Cadastro\Alunos\ViewModel\" />
+    <Folder Include="Bussines\Cadastro\Funcionarios\DAL\" />
+    <Folder Include="Bussines\Cadastro\Funcionarios\Interfaces\" />
+    <Folder Include="Bussines\Cadastro\Funcionarios\Model\" />
+    <Folder Include="Bussines\Cadastro\Funcionarios\ViewModel\" />
+    <Folder Include="Bussines\Dashboard\DAL\" />
+    <Folder Include="Bussines\Dashboard\Interfaces\" />
+    <Folder Include="Bussines\Dashboard\Model\" />
+    <Folder Include="Bussines\Dashboard\ViewModel\" />
+    <Folder Include="Bussines\Avaliação\DAL\" />
+    <Folder Include="Bussines\Avaliação\Interfaces\" />
+    <Folder Include="Bussines\Avaliação\Model\" />
+    <Folder Include="Bussines\Avaliação\ViewModel\" />
+    <Folder Include="Bussines\Ficha De Treinos\DAL\" />
+    <Folder Include="Bussines\Ficha De Treinos\Interfaces\" />
+    <Folder Include="Bussines\Ficha De Treinos\Model\" />
+    <Folder Include="Bussines\Ficha De Treinos\ViewModel\" />
+    <Folder Include="Bussines\Financeiro\DAL\" />
+    <Folder Include="Bussines\Financeiro\Interfaces\" />
+    <Folder Include="Bussines\Financeiro\Model\" />
+    <Folder Include="Bussines\Financeiro\ViewModel\" />
+    <Folder Include="Bussines\Login\ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infraestrutura\Infraestrutura.csproj" />
+  </ItemGroup>
+
+</Project>
